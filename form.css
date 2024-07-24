@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainsection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    width: 90%;
+    margin-top: 25PX;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid   green;
+}
+#h2{
+    font-family: sans-serif;
+    letter-spacing: 1px; 
+    color: green; 
+}
+P1{
+    padding: 10PX;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+.secondline{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+l{
+    color:green;
+    font-size:20px;
+}
+p{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: clamp( 5px,15px,25px);
+}
+
+.profile {
+   line-height: 20px;
+   margin-top: 50px;
+}
+.heading{
+    display: flex;
+   justify-content: space-between;
+    margin-bottom: 15px;
+    width: 100%;
+    column-gap: 20px;
+
+}
+h4{
+    color: green;
+    font-family: sans-serif;
+    font-size: clamp( 5px,15px,25px ,40px);
+
+}
+.line{
+    border-bottom: 1px solid green;
+    width: 85%;
+    margin-bottom: 5px;
+}
+.heading-x{
+    display: flex;
+   justify-content: space-between;
+    margin-bottom: 15px;
+    width: 100%;
+    column-gap: 25px;
+
+}
+#h4-x{
+    color: green;
+    font-family: sans-serif;
+    font-size: clamp( 5px,15px,25px ,40px);
+    
+
+}
+.line2{
+    border-bottom: 1px solid green;
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+.skill {
+    line-height: 20px;
+    margin-top: 50px;
+    width: 100%;
+ }
+ #h4-2{
+    width: 30%;
+ }
+.heading2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.first{
+    border-bottom: 1px solid green;
+    width: 73%;
+    margin-bottom: 5px;
+}
+.second{
+    border-bottom: 1px solid green;
+    width: 73%;
+    margin-bottom: 5px;
+}
+.div1{
+    width: 47%;
+    display: flex;
+    /* column-gap: 40px; */
+
+}
+.div2{
+    width: 50%;
+    display: flex;
+    /* column-gap: 50px; */
+}
+.list1{
+width: 95%;
+display: flex;
+justify-content: space-between;
+line-height: 30px;
+margin-top: 30px;
+flex-wrap: wrap;
+
+}
+.list ul li{
+    font-size: clamp(0px, 5px,15px,25px);
+
+}
+
+
+.Education {
+    margin-top: 40px;
+    line-height: 25px;
+
+}
+h5{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 5px 0 5px 0;
+}
+.centerline {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+ 
+}
+.work {
+    margin-top: 40px;
+    line-height: 30px;
+
+}
+.heading3{
+    display: flex;
+    margin-bottom: 15px;
+}
+#h4-3{
+    width: 15%;
+}
+ul {
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+.interest{
+    margin-top: 30px;
+    height: 20vh;
+}
+.list2 ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#year{
+    color:green
+}
